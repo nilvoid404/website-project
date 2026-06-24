@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing means padding won't make elements bigger than expected */
     box-sizing: border-box;
 }
 
@@ -131,10 +130,7 @@ nav .container {
 #about h1{
     text-align: center;
 }
-/* 
-   about-cards: puts the 3 cards side by side
-   flex-wrap: wrap means on small screens they'll stack
-*/
+
 .about-boxes {
     display: flex;
     gap: 20px;
