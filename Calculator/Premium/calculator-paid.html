@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="calculator-paid.css">
+</head>
+<body>
+
+<div id="calculator">
+
+    <input id="display" placeholder="0" readonly>
+
+   <div id="keys">
+
+    <button onclick="appendToDisplay('(')">(</button>
+    <button onclick="appendToDisplay(')')">)</button>
+    <button onclick="clearDisplay('')" class="operator-button">C</button>
+    <button onclick="backspace()">⌫</button>
+    <button onclick="appendToDisplay('%')">%</button>
+    <button onclick="appendToDisplay('/')">÷</button>
+
+    <button onclick="appendToDisplay('7')">7</button> 
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <button onclick="squareRoot()">√</button>
+    <button onclick="square()">x²</button>
+    <button onclick="appendToDisplay('*')">×</button>
+
+    <button onclick="appendToDisplay('4')">4</button>
+    <button onclick="appendToDisplay('5')">5</button>
+    <button onclick="appendToDisplay('6')">6</button>
+    <button onclick="cubeRoot()">∛</button>
+    <button onclick="cube()">x³</button>
+    <button onclick="appendToDisplay('-')">-</button>
+
+    <button  onclick="appendToDisplay('1')">1</button>
+    <button  onclick="appendToDisplay('2')">2</button>
+    <button  onclick="appendToDisplay('3')">3</button>
+    <button  onclick="pi()">π</button>
+    <button  onclick="exponential()">e</button>
+    <button  onclick="appendToDisplay('+')">+</button>
+
+    <button onclick="appendToDisplay('.')">.</button>
+    <button onclick="appendToDisplay('0')">0</button>
+    <button onclick="tenPower()">10ˣ</button>
+    <button onclick="sin()">sin</button>
+    <button onclick="cos()">cos</button>
+    <button onclick="tan()">tan</button>
+
+    <button onclick="ln()">ln</button>
+    <button onclick="log()">log</button>
+    <button onclick="power()">xʸ</button>
+    <button onclick="factorial()">x!</button>
+    <button onclick="answer()">Ans</button>   
+    <button onclick="calculate()" class="result-button">=</button>
+
+</div>
+</div>
+
+
+</div>
+
+    <script src="calculator-paid.js"></script>
+</body>
+</html>
