@@ -54,3 +54,6 @@ button:hover{
 }
 
 
+.nav-bar {
+    display: flex;
+}
