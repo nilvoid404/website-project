@@ -26,7 +26,7 @@ if (loggedInUser) {
 } else {
     //if no =
     authSection.innerHTML = `
-        <a href="../Login/Login.html">
+        <a href="Login/Login.html">
             <i class="fa-solid fa-circle-user"></i> Login
         </a>
     `;
