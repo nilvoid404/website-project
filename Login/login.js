@@ -55,7 +55,7 @@ function checkLogin(usernameValue, passwordValue) {
     }
 
     localStorage.setItem('loggedInUser', savedUser.username);
-    window.location.href = '../Main/index.html';
+    window.location.href = '../index.html';
 }
 
 function showError(input, message) {
